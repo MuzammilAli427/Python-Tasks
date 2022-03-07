@@ -147,3 +147,17 @@ print(string.format(234))
 
 string="Python is a high {} language {}"
 print(string.format("level"))
+
+
+
+
+def percent(marks):
+    p=(sum(marks)/400)*100
+    return p
+
+
+marks1=[23,45,67,65,]
+percentage=percent(marks1)
+print(percentage)
+
+
